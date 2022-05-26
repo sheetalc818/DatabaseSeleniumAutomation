@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 // Swagger : http://kvmnode2.technoforte.co.in:5002/Swagger/index.html
+
+//Ref : https://www.baeldung.com/rest-assured-header-cookie-parameter
+//https://www.baeldung.com/rest-assured-authentication
 public class RestAssuredTechno {
         public static String token, publicKey;
         private final String JSON = "application/json";
