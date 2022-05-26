@@ -11,22 +11,25 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:6.9.6'
+
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.5'
+
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.0'
+
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
 
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+}
 
-    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
-
-    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
-
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.5'
-
-    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.0'
+dependencies {
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '4.0.0'
 }
 
 test {

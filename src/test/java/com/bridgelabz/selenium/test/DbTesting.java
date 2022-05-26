@@ -10,12 +10,16 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DbTesting extends Base {
+
     public static int count;
 
     @Test(priority = 0)
     public void get_table_data() throws ClassNotFoundException, SQLException {
         con = this.getConnection();
+
+        //Creating Query to the Database using the Statement Object.
         Statement smt = con.createStatement();
+
         //Query Executed
         ResultSet rs = smt.executeQuery("select * from user");
         System.out.println("/*************Records*************/");
@@ -45,7 +49,7 @@ public class DbTesting extends Base {
         con = this.getConnection();
         PreparedStatement pst=con.prepareStatement("UPDATE user SET user_name = ? WHERE user_id = ?");
 
-        pst.setString(1,"ramesh");
+        pst.setString(1,"Test_BL");
         pst.setInt(2,3);
         pst.executeUpdate();
         get_table_data();
@@ -55,7 +59,7 @@ public class DbTesting extends Base {
     public void delete_row_from_table() throws ClassNotFoundException, SQLException {
         con = this.getConnection();
         PreparedStatement pst=con.prepareStatement("DELETE FROM user WHERE user_id = ?");
-        pst.setInt(1,count);
+        pst.setInt(1,3);
         pst.executeUpdate();
         get_table_data();
     }
@@ -77,6 +81,7 @@ public class DbTesting extends Base {
         }
         password.sendKeys("30Login@123");
         loginBtn.click();
+        Thread.sleep(1000);
         driver.close();
     }
 }

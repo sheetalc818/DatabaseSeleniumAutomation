@@ -1,8 +1,10 @@
-com/bridgelabz/selenium/test/SimpleDbTest.java
- com.bridgelabz.selenium.test.SimpleDbTest
-com/bridgelabz/selenium/utility/LaunchSession.java
- com.bridgelabz.selenium.utility.LaunchSession
 com/bridgelabz/selenium/base/Base.java
  com.bridgelabz.selenium.base.Base
+com/bridgelabz/selenium/test/SimpleDbTest.java
+ com.bridgelabz.selenium.test.SimpleDbTest
 com/bridgelabz/selenium/test/DbTesting.java
  com.bridgelabz.selenium.test.DbTesting
+com/bridgelabz/selenium/test/JsonDe.java
+ com.bridgelabz.selenium.test.JsonDe
+com/bridgelabz/selenium/test/RestAssuredTechno.java
+ com.bridgelabz.selenium.test.RestAssuredTechno

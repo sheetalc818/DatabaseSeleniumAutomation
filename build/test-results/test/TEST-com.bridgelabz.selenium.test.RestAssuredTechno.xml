@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.selenium.test.RestAssuredTechno" tests="6" skipped="0" failures="1" errors="0" timestamp="2022-05-20T10:03:26" hostname="DESKTOP-SS5TGEM" time="6.526">
+  <properties/>
+  <testcase name="generateKey" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="4.183"/>
+  <testcase name="authentication" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="1.65"/>
+  <testcase name="selectTenant" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="0.21"/>
+  <testcase name="getEncryptedtext" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="0.157"/>
+  <testcase name="configsPost" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="0.182"/>
+  <testcase name="configsDecrypt" classname="com.bridgelabz.selenium.test.RestAssuredTechno" time="0.139">
+    <failure message="java.lang.AssertionError: expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.bridgelabz.selenium.test.RestAssuredTechno.configsDecrypt(RestAssuredTechno.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <system-out><![CDATA[{
+    "id": null,
+    "version": null,
+    "requesttime": null,
+    "metadata": null,
+    "request": {
+        "username": "admin",
+        "password": "Techno@123",
+        "handshakeDetails": {
+            "clientPublicKey": "MIICCgKCAgEAvCckuzWiDL3vds/+KFi1qtSL6bl1v52rtXUiqe4bOtBgzQs04/yWnYH5ICjwWl9o5Zcm/t+oUwTI7yPlXlDtF2FmIypGqjLmER3WirX2OwhpV8/stILIixtZf9P/p4AmRp+fpX3tqJcJdIhmXc2M6PMq4nNxxAU0Wmh3B6dLZ+i2qlgCFZ9tYzVuf5CkkqUI2nEKj+vZvrFPh4pMxAWi57QDG5F2oIu98YmitGaYeERZPyu2Rmha9lWbYwLyOYbrXhPQHwF8Pt9isKBCmxxWC0H3hEuBKBEh6vgUzy5ikTFdAMeDYdDg+kC5fW6xq7Zm/Q33Mogtm8dDG8a7TvUUn+8bvtWJgOxY+GV4bHlFIr/THvrqzwfLeTUf88y2vRdhBJW67AFiY+FzRftmSs8B47IpP0mGnLbqM9GL1jdmgBexKdxxrJXNAt/SXz8IrSXLgQbA6gUbOO5qNYwjxeGeDWX4uUxkgVQXGUXzkWBUMmnsVkVrzGAPkRE/xTAnPl4YlsIueEjIJn6+zf4Q5KTTbllLObX+ZxUmuAWZcH3wZSIRWzeS5Dth0bk9rzkWbJYh/uh8ao1VVj475rou+sg15QhGpRVAKh3U0cD8YOADeFHBiaRmpstu/SK9vE8/3fipKXAYv1F+O9sqDlbTufM7PL7jT1X7z73JSI/SGVS1pPUCAwEAAQ=="
+        }
+    }
+}
+{
+    "id": null,
+    "version": null,
+    "responsetime": null,
+    "metadata": null,
+    "countryId": 0,
+    "partnerId": 0,
+    "response": {
+        "authenticationToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBZG1pbiIsImp0aSI6IjdlYzliYjQxLTE1NmEtNDExNS04Zjk5LTY3Y2NiZjIyZGFhNyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzMDQyODEwLCJpc3MiOiJ0ZWNobm9mb3J0ZS5jby5pbiIsImF1ZCI6InRlY2hub2ZvcnRlLmNvLmluIn0.VSv1iuET2X-jrW3_UosJSDTEQUZ9Kt-I0hPD-2cDe3k",
+        "serverPublicKey": "MIICCgKCAgEA1OgzyRRDKwH4d1RebMqtquzlAVlsickcXGkuliPPwojErRviZUFrw7PdSV3Eaz72G6sVx1Rah2mKoAX59SzoE6VSrKnCHu0O3jbDNSYGRUcSPgBH3qpIhIm/FmbkxJmEhmpXnnoibKwqlzNkg4TMYYNr5nV1YE37UdZs8uWnl82AVEq9ItgIdG0IXakRf3TYLEms0Z4pxkNeGFFEWcs1QQ8eghi4GjTVvo/UHIWzJvRoCyrv9cKUBEGsHujZa9wjoQDTuqCdFu3XDFU0ayuf5Pibl3iSJrXYDpU2zs2xMUTP7jDupLtsXYcOonIGrxks8ijkIjMAhYOoVbEwApGiMoTJFMU0HIRrujmvfUq5CPEfY6cp1tr94Xfgd6QNTcbsEbX5kmr54yu/Bf9EFUrPhKCjeOW2YzzUYS7eH95iY7KQuFnBOg32j4uLakbNdB2BtJbECwO1pPY9v506RqBw4cyHp5H1UOssHCyWxie1vtJwtUFl3OibbxcfObeX2BFn3zRv0hIz1ymP6t90M4cG6HmR3jNitVSv/brMtq/uCKkLnskvA7fLox2+9lpG452lO/k9v66JlYK9u9KwbblTmqjj7q0Byi4wOSgAX3yBANeK5iPvMj4c+oHAbVfL86cpn/05mlJrwsRqh3SxFMefx3nIkjuH1v7LGMiUcrD/7BMCAwEAAQ=="
+    },
+    "errors": null
+}
+Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBZG1pbiIsImp0aSI6IjdlYzliYjQxLTE1NmEtNDExNS04Zjk5LTY3Y2NiZjIyZGFhNyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjUzMDQyODEwLCJpc3MiOiJ0ZWNobm9mb3J0ZS5jby5pbiIsImF1ZCI6InRlY2hub2ZvcnRlLmNvLmluIn0.VSv1iuET2X-jrW3_UosJSDTEQUZ9Kt-I0hPD-2cDe3k
+Public Key : MIICCgKCAgEA1OgzyRRDKwH4d1RebMqtquzlAVlsickcXGkuliPPwojErRviZUFrw7PdSV3Eaz72G6sVx1Rah2mKoAX59SzoE6VSrKnCHu0O3jbDNSYGRUcSPgBH3qpIhIm/FmbkxJmEhmpXnnoibKwqlzNkg4TMYYNr5nV1YE37UdZs8uWnl82AVEq9ItgIdG0IXakRf3TYLEms0Z4pxkNeGFFEWcs1QQ8eghi4GjTVvo/UHIWzJvRoCyrv9cKUBEGsHujZa9wjoQDTuqCdFu3XDFU0ayuf5Pibl3iSJrXYDpU2zs2xMUTP7jDupLtsXYcOonIGrxks8ijkIjMAhYOoVbEwApGiMoTJFMU0HIRrujmvfUq5CPEfY6cp1tr94Xfgd6QNTcbsEbX5kmr54yu/Bf9EFUrPhKCjeOW2YzzUYS7eH95iY7KQuFnBOg32j4uLakbNdB2BtJbECwO1pPY9v506RqBw4cyHp5H1UOssHCyWxie1vtJwtUFl3OibbxcfObeX2BFn3zRv0hIz1ymP6t90M4cG6HmR3jNitVSv/brMtq/uCKkLnskvA7fLox2+9lpG452lO/k9v66JlYK9u9KwbblTmqjj7q0Byi4wOSgAX3yBANeK5iPvMj4c+oHAbVfL86cpn/05mlJrwsRqh3SxFMefx3nIkjuH1v7LGMiUcrD/7BMCAwEAAQ==
+"Tenant selected successfully"
+{
+    "request": "XsTWx2/y56tYR9IES51tk6H9F43UQyBpbPRDtFOZhj8H5FpkrfXsjZlNZr3u+ZzQtgxxsCXpn2DNx7Qnnzeyt44cKfZSCIcLuWoGrY6toGLH6TDbW5x7tTcTIvxgUmkViwiAgSsCQQlYW2g1eVlT3160KENEAZ37yPjLfhW2ppM=",
+    "key": "WBMN74NqSVbpxJdey9JxbTRMvVB2c/GYcOHYUkI0Hq3CIBBCQxkSmjSRgN+/6zj0yCycKqQuL1CxM89UvAxz49QQ0wqgeTfcuCTBRmeCrQgFsG0tkAv2SzeDQ0Qn+K2KouE6fvD0LSu96UfDbT3oLxVNwDgsHm4fNm2m2rb2T6ZvoU3q1ePYDHNG9zW//iXhNlmLMD4nnzt7LWnHgisAy59/ePbyVZaOZZh6mRyjMOr6CTgk0WNbHSrpHb7jYvEZGgaaou092pSVcqW/F352f6MCKuOJZ6FXpWwV1oKTnjOaD1wO7xYgXMUpXFq/VE3IlJ+wXkXRtOTLmOeZ+j9hQOal7MU1m0BZ/W3J8sWUqW+ApmG0kUGlVfBQQBj3OEVZ/EAgh4NFymPM8bI53VRedji4cRMRuTRSTvDYhSvvjzTOk0NPo4Pkm2t3HYCp/VXW8wXlZHqP1AB+Wy//ya2pOomgBrL47jtXxPASaeOuKpwkz41/F0iEJdHWnZYjs+QDFGfrwZyU3Qua8TtEAvCOwe9K6NwPnLXUTpwfWb9uqEUSYFsZuPHWD8WJydrHypk8YNgYn4y2KrHBMIwipzErxX08F3FBSJpgd87E4dsUYUSvVQbXFINKuiKLcydfw8W+Zc10pFe4/rPQ+vdADBZrhqy5zZ3DH6P7WkAu9Q4PmSw="
+}
+"{\"encryptedResponse\":\"pCMbOkuQq9A3H92htcJ5gCc2wBDHmkhec1bDIInzMJncEDqMrUCSunRirAO7bUsI/+G6r9uXCtnTqpVM8zT6BYZQQZkNmwHzSw3mqwaQfKNMd+RfdMi+gkHFpViGOkO0SS4P5r7ZyaXxuM9qA4XUWRG5+4FX5ynOCLh8D6y2WN5oJKFV4fgJOVmOQYSl0tjHlZLKCPY5QVTFF2K79bfuh7zfy6pIN8COQtxLeGVdsmYhxblqAbaWT2WcxgNnEcG4qmYU4GBPRfZ78VIlZw5aWPNJOPN6MWUWH8C1sPs0gPB2UAF3SxCzfiObM+530EQa\",\"key\":\"RzbWfmSi2NhnMPXu1BVlEhC68ZAD6y84hjuBQs7/ktK6V6Oxb78wzgzAOvAEVdFcRvcagVf/XXKTJAxt315f5leIHEJafksgI5SBhB/oJmfvnAWgCdARlyZiQRxamzU7PEfZAgviZ+1DJ7vDOOTBVNfyWzIzQm1OiKFF7dqDZ+g5DcLLy0tuwlRDv/yUhdQ+watPXOF2MtHipBT9Z3K6mts+lvIb+pbQNYIa+C7nG2tNRaPkjheiQWJM2FF4NIgSzDXp3U9u8f5/c3snbzNg0fiwS+FK/pLvd3gbo8H4riSLmrS2cTyZAtGF4RseD2OWW63lgOhH2Tl6VVDxaOFOItdB3TgSCFXNAuKgY9zkaoNmSq6q4rC+CaDHR/DOmgNO0ADODyrBfZOB24+ggRgCRGIKSIaZIi6qaNUQc3xsIE0ZZCUVr5ZbkhUHEmE76AiszaNF0BpHAwAn4SCxrVu75gvYiOwWAgO0gPwCbrLJp27Ifi9CK9E3jNTycJ/Pdl43ZnLvDr9ntFUmku//0RAzL6qZS8yy7K6/BstO6kLjO0VltNsZs2HmL3CuHjVl5dczgIMhVFPIJEbCl+puHoTJpQ8fxOxVliq74+RG5geZ30rapPdDXYZssf4l2qVlGbx0EZcZeX+SN82jTFQMFFYKts4ht6rGc3pdeKiFrw60BHQ=\"}"
+{
+    "errors": {
+        "": [
+            "Error converting value \"{\"encryptedResponse\":\"pCMbOkuQq9A3H92htcJ5gCc2wBDHmkhec1bDIInzMJncEDqMrUCSunRirAO7bUsI/+G6r9uXCtnTqpVM8zT6BYZQQZkNmwHzSw3mqwaQfKNMd+RfdMi+gkHFpViGOkO0SS4P5r7ZyaXxuM9qA4XUWRG5+4FX5ynOCLh8D6y2WN5oJKFV4fgJOVmOQYSl0tjHlZLKCPY5QVTFF2K79bfuh7zfy6pIN8COQtxLeGVdsmYhxblqAbaWT2WcxgNnEcG4qmYU4GBPRfZ78VIlZw5aWPNJOPN6MWUWH8C1sPs0gPB2UAF3SxCzfiObM+530EQa\",\"key\":\"RzbWfmSi2NhnMPXu1BVlEhC68ZAD6y84hjuBQs7/ktK6V6Oxb78wzgzAOvAEVdFcRvcagVf/XXKTJAxt315f5leIHEJafksgI5SBhB/oJmfvnAWgCdARlyZiQRxamzU7PEfZAgviZ+1DJ7vDOOTBVNfyWzIzQm1OiKFF7dqDZ+g5DcLLy0tuwlRDv/yUhdQ+watPXOF2MtHipBT9Z3K6mts+lvIb+pbQNYIa+C7nG2tNRaPkjheiQWJM2FF4NIgSzDXp3U9u8f5/c3snbzNg0fiwS+FK/pLvd3gbo8H4riSLmrS2cTyZAtGF4RseD2OWW63lgOhH2Tl6VVDxaOFOItdB3TgSCFXNAuKgY9zkaoNmSq6q4rC+CaDHR/DOmgNO0ADODyrBfZOB24+ggRgCRGIKSIaZIi6qaNUQc3xsIE0ZZCUVr5ZbkhUHEmE76AiszaNF0BpHAwAn4SCxrVu75gvYiOwWAgO0gPwCbrLJp27Ifi9CK9E3jNTycJ/Pdl43ZnLvDr9ntFUmku//0RAzL6qZS8yy7K6/BstO6kLjO0VltNsZs2HmL3CuHjVl5dczgIMhVFPIJEbCl+puHoTJpQ8fxOxVliq74+RG5geZ30rapPdDXYZssf4l2qVlGbx0EZcZeX+SN82jTFQMFFYKts4ht6rGc3pdeKiFrw60BHQ=\"}\" to type 'DTOs.WrapperDTO.Idm.EncryptedResponseDTO`1[DTOs.WrapperDTO.Idm.IDMResponseBodyDTO`1[System.Object]]'. Path '', line 1, position 1047."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-ac55c8823cf71de173bbad339f0ef90e-4e479378d69a90cb-00"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
